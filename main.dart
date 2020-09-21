@@ -130,4 +130,4 @@ class MyApp extends StatelessWidget {
         ),
     );
   }
-} La mise maximum autorisée lorsque vous jouez avec de l’argent bonus est de 5 € / 5 $ / 5 £ (ou l’équivalent dans toutes autres devises) jusqu’à ce que les conditions de mises du bonus soient remplies.
+}
