@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
                       ),
                       Center(
                             child: Container(
-                              width: 250,
+                              width: 267,
                               height: 40,
                               margin: EdgeInsets.only(top: 80), //tova trqbva da se napravi dinamichno
                               padding: EdgeInsets.only(left: 0),
@@ -74,6 +74,28 @@ class MyApp extends StatelessWidget {
                                     },
                                     child: Text(
                                       "Log-in",
+                                      style: new TextStyle(
+                                            fontSize: 16.0,
+                                            fontWeight: FontWeight.bold
+                                      ),
+                                    ),
+                                  ),
+                                  FlatButton(
+                                    //color: Colors.blue,
+                                    textColor: Colors.white,
+                                    disabledColor: Colors.grey,
+                                    disabledTextColor: Colors.black,
+                                    padding: EdgeInsets.all(8.0),
+                                    splashColor: Colors.white,
+                                    onPressed: () {
+                                      /*...*/
+                                    },
+                                    child: Text(
+                                      "Play",
+                                      style: new TextStyle(
+                                                   fontSize: 20.0,
+                                                  fontWeight: FontWeight.bold
+                                      ),
                                     ),
                                   ),
                                   FlatButton(
@@ -88,8 +110,12 @@ class MyApp extends StatelessWidget {
                                     },
                                     child: Text(
                                       "Sign-up",
+                                      style: new TextStyle(
+                                            fontSize: 16.0,
+                                            fontWeight: FontWeight.bold
+                                      ),
                                     ),
-                                  )
+                                  ),
                                 ],
                               ),
                             ),
@@ -104,4 +130,4 @@ class MyApp extends StatelessWidget {
         ),
     );
   }
-}
+} La mise maximum autorisée lorsque vous jouez avec de l’argent bonus est de 5 € / 5 $ / 5 £ (ou l’équivalent dans toutes autres devises) jusqu’à ce que les conditions de mises du bonus soient remplies.
