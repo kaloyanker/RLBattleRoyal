@@ -68,11 +68,13 @@ class _MainPageState extends State<MainPage> {
 
       _locationSubscription = _locationTracker.onLocationChanged.listen((newLocalData) {
         if (_controller != null) {
-          _controller.animateCamera(CameraUpdate.newCameraPosition(new CameraPosition(
-              bearing: 192.8334901395799,
+          CameraUpdate.newCameraPosition(new CameraPosition(
+            /* bearing: 192.8334901395799,
+               tilt: 0,
+               zoom: 16*/
               target: LatLng(newLocalData.latitude, newLocalData.longitude),
-              tilt: 0,
-              zoom: 18.00)));
+             ),
+           );
           updateMarkerAndCircle(newLocalData, imageData);
         }
       });
